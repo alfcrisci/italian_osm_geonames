@@ -1,4 +1,4 @@
-## Geonomi italiani da Openstreetmap data. italian_osm_geonames
+## Geonomi italiani da Openstreetmap data ( italian_osm_geonames)
 
 Check utilities ( on Linux 14.04) 
 
@@ -27,6 +27,15 @@ osmconvert places_ita.osm  --all-to-nodes --csv="@id @lon @lat place name" --csv
 osmconvert places_ita.osm  --csv="@id @lon @lat place name" --csv-headline  --csv-separator=, -o=places_ita_full.csv 
 
 ```
+
+Two other source areare released:
+
+[A] Geonames matrix name for italy from http://www.geonames.org/data-sources.html licensed under a Creative Commons Attribution 3.0 License, see http://creativecommons.org/licenses/by/3.0/
+The Data is provided "as is" without warranty or any representation of accuracy, timeliness or completeness.
+in R rds  compressed format.
+
+[B] Geo Toponimi toscani Regione Toscana - Cartografia Tecnica Regionale (CTR) https://publicdata.eu/dataset/regione-toscana_rt-ctr 
+
 
 
 ##Licence
