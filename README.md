@@ -28,17 +28,18 @@ osmconvert places_ita.osm  --csv="@id @lon @lat place name" --csv-headline  --cs
 
 ```
 
-Two other source areare released:
+Two other source are here released in reusable format:
 
 [A] Geonames matrix name for italy from http://www.geonames.org/data-sources.html licensed under a Creative Commons Attribution 3.0 License, see http://creativecommons.org/licenses/by/3.0/
 The Data is provided "as is" without warranty or any representation of accuracy, timeliness or completeness.
 in R rds  compressed format.
 
 [B] Geo Toponimi toscani Regione Toscana - Cartografia Tecnica Regionale (CTR) https://publicdata.eu/dataset/regione-toscana_rt-ctr 
+Format is csv.
 
 
 
-##Licence
+##Licence OSM data
 
 Don't forget attribution in reuse http://www.openstreetmap.org/copyright - http://wiki.osmfoundation.org/wiki/License
 
